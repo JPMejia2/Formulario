@@ -32,3 +32,45 @@ h1{
     height: 2em;
     margin-top: 3em;
 }
+
+.mas{
+    width: 4em;
+    height: 2em;
+    margin-top: 2em;
+    border: #E8E8E8;
+    margin-right: 1em;
+
+}
+
+.menos{
+    width: auto;
+    height: 2em;
+    margin-top: 2em;
+    border: #E8E8E8;
+    margin-right: 1em;
+}
+
+.por{
+    width: auto;
+    height: 2em;
+    margin-top: 1em;
+    border: #E8E8E8;
+    margin-right: 1em;
+}
+
+.division{
+    width: auto;
+    height: 2em;
+    margin-top: 2em;
+    border: #E8E8E8;
+    margin-right: 1em;
+}
+
+.cj-resultado{
+    width: 80%;
+    height: 1.8em;
+    margin-top: 3em;
+    display: inline-block;
+    background-color: #ffffff;
+    border: 0.5px black solid;
+}
