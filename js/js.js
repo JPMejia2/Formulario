@@ -1,14 +1,37 @@
-function Main(){
+var btr = document.getElementById("btn-r");
+var bts = document.getElementById("btn-s");
+var btm = document.getElementById("btn-m");
+var btd = document.getElementById("btn-d");
+
+function Suma(){
     
-    var num1 = document.getElementById("num1").value;//10
-    var num2 = document.getElementById("num2").value;//15
-    
-    var suma = parseInt(num1) + parseInt(num2);//25
-    
-    alert(suma)
-    console.log(suma)
+    var num1 = document.getElementById("num1").value;
+    var num2 = document.getElementById("num2").value;
+    alert(num1 + num2)
 }
 
-var btn = document.getElementById("btn");
-btn.addEventListener('click', Main)
-           
+function Resta(){
+    
+    var num1 = document.getElementById("num1").value;
+    var num2 = document.getElementById("num2").value;
+    alert(num1-num2)
+}
+
+function Division(){
+    
+    var num1 = document.getElementById("num1").value;
+    var num2 = document.getElementById("num2").value;
+    alert(num1/num2)
+}
+
+function Multiplicacion(){
+    
+    var num1 = document.getElementById("num1").value;
+    var num2 = document.getElementById("num2").value;
+    alert(num1*num2)
+}
+
+btr.addEventListener('click', Suma)
+bts.addEventListener('click', Resta)         
+btm.addEventListener('click', Division)
+btd.addEventListener('click', Multiplicacion)
