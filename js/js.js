@@ -7,28 +7,39 @@ function Suma(){
     
     var num1 = document.getElementById("num1").value;
     var num2 = document.getElementById("num2").value;
-    alert(num1 + num2)
+    var resultado = document.getElementById("resultado")
+    
+    num1 = parseFloat(num1)
+    num2 = parseFloat(num2)
+    
+    resultado.textContent = num1 + num2
 }
 
 function Resta(){
     
     var num1 = document.getElementById("num1").value;
     var num2 = document.getElementById("num2").value;
-    alert(num1-num2)
+    var resultado = document.getElementById("resultado")
+    
+    resultado.textContent = num1 - num2
 }
 
 function Division(){
     
     var num1 = document.getElementById("num1").value;
     var num2 = document.getElementById("num2").value;
-    alert(num1/num2)
+    var resultado = document.getElementById("resultado")
+    
+    resultado.textContent = num1 / num2
 }
 
 function Multiplicacion(){
     
     var num1 = document.getElementById("num1").value;
     var num2 = document.getElementById("num2").value;
-    alert(num1*num2)
+    var resultado = document.getElementById("resultado")
+    
+    resultado.textContent = num1 * num2
 }
 
 btr.addEventListener('click', Suma)
